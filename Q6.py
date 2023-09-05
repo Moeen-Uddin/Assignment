@@ -19,10 +19,8 @@ class ElectricCar(Car):
 
 my_car = Car("Toyota", "Camry", 2022)
 
-# Create an instance of ElectricCar
 electric_car = ElectricCar("Tesla", "Model 3", 2022, 75)
 
-# Access and display information from both classes
 print("Car Information:")
 my_car.display_info()
 
